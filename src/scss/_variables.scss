@@ -1,0 +1,12 @@
+$purple: #6C63FF;
+$black-time: #4D4C59;
+$gray-dark: #9C9AB6;
+$gray-light: #C8C8C8;
+
+@mixin displayFlex($direction, $justify, $align, $gap) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+    gap: $gap;
+}
